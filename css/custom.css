@@ -1,0 +1,29 @@
+/* CSS MODIFICATIONS FOR MKDOCS-MATERIAL THEME */
+/* by Arthur Perret https://github.com/infologie/ */
+
+body {
+	font-family: -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.md-typeset h1 {
+	font-weight: 900;
+	color: rgba(0,0,0,1);
+}
+.md-header-nav__title,
+.md-typeset h2,
+.md-typeset h3 {
+	font-weight: 700;
+}
+code, kbd, pre {
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+iframe {
+	width: 100vw;
+	height: 56.25vw;
+	max-height: 400px;
+}
+.md-typeset ul {
+    list-style-type: '— ';
+}
+.md-typeset ul li {
+    margin-left: .75em;
+}
